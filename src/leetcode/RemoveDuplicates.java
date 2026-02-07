@@ -1,10 +1,10 @@
 package leetcode;
 // problem link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-public class Solution {
+public class RemoveDuplicates {
 
     public static void main(String[] args) {
         int[] nums = {1,2};
-        Solution solution = new Solution();
+        RemoveDuplicates solution = new RemoveDuplicates();
         System.out.println("Length of array after removing duplicates: ");
         System.out.println(solution.removeDuplicates(nums));
     }
